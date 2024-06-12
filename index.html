@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Theia: Distilling Diverse Vision Foundation Models for Robot Learning">
+  <meta name="keywords" content="Visual representation, Robot learning, Distillation, Foundation model">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Theia: Distilling Diverse Vision Foundation Models for Robot Learning</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Theia: Distilling Diverse Vision Foundation Models for Robot Learning</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www3.cs.stonybrook.edu/~jishang" target="_blank">Jinghuan Shang</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/view/karlschmeckpeper" target="_blank">Karl Schmeckpeper</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=_UnlC7IAAAAJ&hl=en" target="_blank">Brandon B. May</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Maria Vittoria Minniti<sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="http://kelestemur.com" target="_blank">Tarik Kelestemur</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://davidjosephwatkins.com" target="_blank">David Watkins</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Laura Herlant<sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>The AI Institute</span>
+            <span class="author-block"><sup>2</sup>Stony Brook University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- arxiv Link. -->
+              <span class="link-block">
+                <a href="" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/bdaiinstitute/theia" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/theia_video_only.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        <b>Theia</b> distills multiple Vision Foundation Models to make representations strong for Robot Leraning.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body" style="background-image: url('static/images/channels4_banner.png'); background-size: 100%; background-color: rgba(255, 255, 255, 0.5); background-blend-mode: multiply;">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/videos_cut/theia_broccoli_1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/videos_cut/theia_door_adversarial.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/videos_cut/theia_drawer_opening_0003.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/videos_cut/theia_cup_1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/videos_cut/theia_carrot_2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/videos_cut/theia_door_2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/videos_cut/theia_drawer_opening_0018.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/videos_cut/theia_cup_3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Vision-based robot policy learning, which maps visual inputs to actions, necessitates a holistic understanding of diverse visual tasks beyond single-task needs like classification or segmentation. Inspired by this, we introduce Theia, a vision foundation model for robot learning that distills multiple off-the-shelf vision foundation models trained on varied vision tasks. Theia's rich visual representations encode diverse visual knowledge, enhancing downstream robot learning. Extensive experiments demonstrate that Theia outperforms its teacher models and prior robot learning models using less training data and smaller model sizes. Additionally, we quantify the quality of pre-trained visual representations and hypothesize that higher entropy in feature norm distributions leads to improved robot learning performance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+      
+
+      <!-- Visual Effects. -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Robot Learning Performance</h2>
+          <p>
+            Theia achieves SOTA robot learning performance on CortexBench with much smaller model size and cheaper compute. Training Theia is also cheap which only requires about 150 GPU hours on ImageNet. 
+          </p>
+          <div class="card-image has-text-centered">
+            <figure class="image is-inline-block">
+              <img style="height: 600px;" src="static/images/mujoco_results.jpg">
+            </figure>
+          </div>
+          
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Decodeing -->
+    <div class="columns is-centered">
+      <div class="content">
+        <h2 class="title is-3">Decode to Original VFM Outputs</h2>
+        <p>
+          Theia feature can be transformed to teacher VFM features using the feature translator learned during distilation. With corresponding VFM decoders or visualization methods, these feature can be decoded to the outputs of original VFM, offering a reduced inference budget.
+        </p>
+        <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+          <source src="./static/videos/theia_decode_to_vfm.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Method. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Method</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            Theia distills the knowledge of multiple VFMs into a smaller model, producing rich spatial representations for downstream vision-based robot learning.
+            Our model comprises a visual encoder (backbone) and a set of feature translators for distillation.
+            We use only the visual encoder to produce latent representations for downstream robot learning tasks. 
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img height="100%" src="static/images/theia_main_figure.png">
+        </div>
+        <br/>
+
+      </div>
+    </div>
+
+    <!-- Teacher models. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Teacher models</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            Different combination of VFM teachers lead to different downstream robot learning performance. We study it by distilling all candidate VFMs individually, all of them, or taking one out of All combinations. We find that CLIP+DINOv2+ViT (CDiV) is the best among these combinations.
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img height="100%" src="static/images/combination_of_teacher_models.jpg">
+        </div>
+        <br/>
+
+      </div>
+    </div>
+
+    <!-- Analysis. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">What makes visual representations good for robot learning?</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            Traditionally, the quality of the pre-trained visual representations is evaluated through downstream robot learning like IL or RL. 
+            However, it is unclear why different visual representations lead to varying robot learning performance outcomes. 
+          </p>
+          <p>
+            We quantify the quality of visual representations and analyze how they correlate with downstream robot learning performance. 
+            We inspect the feature norms (<a href="https://openreview.net/forum?id=2dnO3LLiJ1" target="_blank">[1]</a>) of Theia with different teacher combinations and baseline models evaluated, and their corresponding performance on the MuJoCo subset tasks. 
+            On the right of the below figure, we confirm that similar outlier tokens also appear in VC-1 corresponding to the image patches that are not task-relevant. 
+            In contrast, Theia has very few or no outlier tokens, and the tokens with higher norms are more task-relevant even though Theia-representations are not trained on these robot images. 
+            In our quantitative analysis (left), we find that there is a strong correlation (R=0.943) between entropy and robot learning performance among regular models, and a high correlation (R=0.638) among distilled models. 
+            We hypothesize that spatial token representations with high entropy (better feature diversity) encode more information that aids policy learning, while less diverse representations (low entropy) may hinder it. 
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img height="100%" src="static/images/feature_quality2.png">
+        </div>
+        <br/>
+
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{shang2024theia,
+  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+  title     = {Nerfies: Deformable Neural Radiance Fields},
+  journal   = {ICCV},
+  year      = {2021},
+}</code></pre>
+  </div>
+</section> -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content is-centered">
+          <p>
+            This website uses the template from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
