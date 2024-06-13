@@ -1,0 +1,5 @@
+type: "transformer"
+kwargs:
+  translator_n_layers: 2
+  translator_n_heads: 8
+  translator_hidden_size: 1024

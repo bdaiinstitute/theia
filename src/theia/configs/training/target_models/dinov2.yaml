@@ -1,0 +1,3 @@
+target_model_names:
+ - "facebook/dinov2-large"
+target_model_weights: null

@@ -1,0 +1,3 @@
+target_model_names:
+ - "facebook/sam-vit-huge"
+target_model_weights: null

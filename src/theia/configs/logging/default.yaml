@@ -1,0 +1,6 @@
+model_path: "/storage/nfs/jshang/trained_models"
+log_path: "/storage/nfs/jshang/logs"
+save_ckpt_interval: 20000
+notes: ""
+run_identifier_prefix: ""
+project: "theia"

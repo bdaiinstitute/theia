@@ -1,0 +1,7 @@
+return_metadata: False
+shuffle: True
+shuffle_buffer_size: 1024
+feature_norm: True
+dataset_root: "/storage/nfs/datasets/jshang/"
+dataset_ratio: 0.1
+load_action: False

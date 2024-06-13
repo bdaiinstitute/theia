@@ -1,0 +1,3 @@
+type: "lconv"
+kwargs:
+  hidden_size_factor: 1.0

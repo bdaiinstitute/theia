@@ -1,0 +1,2 @@
+backbone: nocls-facebook/deit-tiny-patch16-224
+pretrained: False

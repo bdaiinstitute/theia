@@ -1,0 +1,12 @@
+_target_: dataset.oxe.oxe_data_utils.OXEDataset
+dataset_mix: "oxe_magic_soup"
+image_action_set_root: "/storage/nfs/datasets/jshang/oxe_image_action"
+feature_set_root: "/storage/nfs/datasets/jshang/oxe_vfm_features"
+image_views: null
+split: "train"
+data_portion: 0.01
+load_action: False
+bf16: True
+safe_tensors: True
+trajectory_subsample_len: 32
+return_metadata: False

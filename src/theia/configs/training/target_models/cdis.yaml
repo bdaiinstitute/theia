@@ -1,0 +1,5 @@
+target_model_names:
+ - "facebook/dinov2-large"
+ - "openai/clip-vit-large-patch14"
+ - "facebook/sam-vit-huge"
+target_model_weights: null

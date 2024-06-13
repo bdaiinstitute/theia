@@ -1,0 +1,3 @@
+target_model_names:
+ - "openai/clip-vit-large-patch14"
+target_model_weights: null

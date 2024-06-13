@@ -1,0 +1,3 @@
+target_model_names:
+ - "google/vit-huge-patch14-224-in21k"
+target_model_weights: null

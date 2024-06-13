@@ -1,0 +1,3 @@
+backbone: reg-facebook/deit-tiny-patch16-224
+pretrained: False
+num_reg_tokens: 7

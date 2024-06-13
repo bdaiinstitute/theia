@@ -1,0 +1,5 @@
+defaults:
+    - image_video_default
+
+dataset_mix:
+    - "ego4d_1in150"

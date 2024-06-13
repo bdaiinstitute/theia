@@ -1,0 +1,2 @@
+backbone: facebook/deit-small-patch16-224
+pretrained: False

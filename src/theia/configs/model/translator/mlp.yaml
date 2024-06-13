@@ -1,0 +1,4 @@
+type: "mlp"
+kwargs:
+  translator_n_layer: 3
+  hidden_size: 1024

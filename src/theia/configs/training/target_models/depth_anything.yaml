@@ -1,0 +1,3 @@
+target_model_names:
+ - "LiheYoung/depth-anything-large-hf"
+target_model_weights: null

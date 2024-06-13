@@ -1,0 +1,5 @@
+defaults:
+    - image_video_default
+
+dataset_mix:
+    - "epic_kitchen_1in60"
