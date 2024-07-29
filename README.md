@@ -4,7 +4,7 @@
     <a href="https://www3.cs.stonybrook.edu/~jishang" target="_blank">Jinghuan Shang</a>, <a href="https://sites.google.com/view/karlschmeckpeper" target="_blank">Karl Schmeckpeper</a>, <a href="https://scholar.google.com/citations?user=_UnlC7IAAAAJ&hl=en" target="_blank">Brandon B. May</a>, Maria Vittoria Minniti, <a href="http://kelestemur.com" target="_blank">Tarik Kelestemur</a>, <a href="https://davidjosephwatkins.com" target="_blank">David Watkins</a>, Laura Herlant
 </h4>
 <p align="center">
-<a href="http://bdaiinstitute.github.io/theia" target="_blank">Project Website</a>, <a href="" target="_blank">Paper (arXiv)</a>, <a href="https://huggingface.co/collections/theaiinstitute/theia-66a7a6ae80a707547c358cce" target="_blank">Models</a>
+<a href="" target="_blank"></a>Project Website (Coming Soon), <a href="" target="_blank"></a>Paper (Coming Soon), <a href="https://huggingface.co/collections/theaiinstitute/theia-66a7a6ae80a707547c358cce" target="_blank">Models</a>
 </p>
 
 <p align="center">
