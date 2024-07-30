@@ -1,8 +1,12 @@
 <h1 align="center">Theia: Distilling Diverse Vision Foundation Models for Robot Learning</h1>
 
 <h4 align="center">
-    <a href="https://www3.cs.stonybrook.edu/~jishang" target="_blank">Jinghuan Shang</a>, <a href="https://sites.google.com/view/karlschmeckpeper" target="_blank">Karl Schmeckpeper</a>, <a href="https://scholar.google.com/citations?user=_UnlC7IAAAAJ&hl=en" target="_blank">Brandon B. May</a>, Maria Vittoria Minniti, <a href="http://kelestemur.com" target="_blank">Tarik Kelestemur</a>, <a href="https://davidjosephwatkins.com" target="_blank">David Watkins</a>, Laura Herlant
+    <a href="https://www3.cs.stonybrook.edu/~jishang" target="_blank">Jinghuan Shang</a><sup>1,2</sup>, <a href="https://sites.google.com/view/karlschmeckpeper" target="_blank">Karl Schmeckpeper</a><sup>1</sup>, <a href="https://scholar.google.com/citations?user=_UnlC7IAAAAJ&hl=en" target="_blank">Brandon B. May</a><sup>1</sup>, Maria Vittoria Minniti<sup>1</sup>, <a href="http://kelestemur.com" target="_blank">Tarik Kelestemur</a><sup>1</sup>, <a href="https://davidjosephwatkins.com" target="_blank">David Watkins</a><sup>1</sup>, Laura Herlant<sup>1</sup>
 </h4>
+<p align="center">
+<sup>1</sup><a href="http://theaiinstitute.com/" target="_blank">The AI Institute</a>
+<sup>2</sup><a href="https://www3.cs.stonybrook.edu/~cvl/" target="_blank">Stony Brook University</a>
+</p>
 <p align="center">
 <a href="" target="_blank"></a>Project Website (Coming Soon), <a href="https://arxiv.org/abs/2407.20179" target="_blank">Paper (arXiv)</a>, <a href="https://huggingface.co/collections/theaiinstitute/theia-66a7a6ae80a707547c358cce" target="_blank">Models</a>
 </p>
