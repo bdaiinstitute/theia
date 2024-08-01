@@ -100,7 +100,7 @@ You can decode Theia-predicted VFM representations to their outputs. For DINOv2 
 
 ![](doc/more_decoding_visualization.png)
 
-Try out our online demo(work in-progress) or [notebook example](src/theia/example/decode_to_vfms.ipynb), or you can get outputs from local checkpoints by
+Try out our [online demo](https://huggingface.co/spaces/theaiinstitute/theia) or [notebook example](src/theia/example/decode_to_vfms.ipynb), or you can get outputs from local checkpoints by
 ```
 cd src/theia/scripts/decoding
 python decoding_example.py --backbone <backbone_name> --checkpoint-path <path to theia model checkpoint> --feature-stat-dir <where feature mean and std are placed> --media-to-vis-path <path to the video or image to decode>
