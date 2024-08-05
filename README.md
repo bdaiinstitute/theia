@@ -74,7 +74,7 @@ You can also refer to the integrated script `src/theia/scripts/preprocessing/iv_
 During training we will need mean and variance for each teacher model to normalize teacher features. You can extract them using `src/theia/scripts/preprocessing/calc_feature_mean.py` or use the stats we provide in `feature_stats`.
 
 ### Expected Dataset Format
-More details about dataset format are available at [dataset_format](doc/dataset_format). Please use this to verify or toubleshoot your data.
+More details about dataset format are available at [dataset_format](doc/dataset_format). Please use this to verify or troubleshoot your data.
 
 ## Training
 ```
