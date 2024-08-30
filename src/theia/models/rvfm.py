@@ -30,7 +30,7 @@ class RobotVisionFM(nn.Module):
 
     def __init__(
         self,
-        backbone: str | nn.Module = "deit-small-patch16-224",
+        backbone: str | nn.Module = "facebook/deit-small-patch16-224",
         pretrained: bool = False,
         translator: str | nn.Module = "lconv",
         target_feature_sizes: Optional[dict[str, torch.Size | tuple[int, ...]]] = None,
