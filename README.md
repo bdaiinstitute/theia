@@ -74,7 +74,7 @@ You can also refer to the integrated script `src/theia/scripts/preprocessing/iv_
 During training we will need mean and variance for each teacher model to normalize teacher features. You can extract them using `src/theia/scripts/preprocessing/calc_feature_mean.py` or use the stats we provide in `feature_stats`.
 
 ### Expected Dataset Format
-More details about dataset format are available at [dataset_format](doc/dataset_format). Please use this to verify or troubleshoot your data.
+More details about dataset format are available at [dataset_format](doc/dataset_format.md). Please use this to verify or troubleshoot your data.
 
 ## Training
 ```
@@ -108,7 +108,7 @@ python decoding_example.py --backbone <backbone_name> --checkpoint-path <path to
 
 
 ## References
-[Webdataset](https://github.com/webdataset/webdataset), [transformers](https://github.com/huggingface/transformers), [safetensors](https://huggingface.co/docs/safetensors/en/index), [DINOv2](https://github.com/facebookresearch/dinov2), [CLIP](https://github.com/openai/CLIP), [ViT](https://github.com/google-research/vision_transformer), [SAM](https://github.com/facebookresearch/segment-anything), [RADIO](https://github.com/NVlabs/RADIO)
+[Webdataset](https://github.com/webdataset/webdataset), [transformers](https://github.com/huggingface/transformers), [safetensors](https://huggingface.co/docs/safetensors/en/index), [DINOv2](https://github.com/facebookresearch/dinov2), [CLIP](https://github.com/openai/CLIP), [ViT](https://github.com/google-research/vision_transformer), [SAM](https://github.com/facebookresearch/segment-anything), [RADIO](https://github.com/NVlabs/RADIO), [DepthAnything](https://github.com/LiheYoung/Depth-Anything)
 
 ## Citation
 If you use Theia in your research, please use the following BibTeX entry:
