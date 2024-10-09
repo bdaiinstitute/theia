@@ -113,10 +113,12 @@ python decoding_example.py --backbone <backbone_name> --checkpoint-path <path to
 ## Citation
 If you use Theia in your research, please use the following BibTeX entry:
 ```bibtex
-@article{shang2024theia,
-  author    = {Shang, Jinghuan and Schmeckpeper, Karl and May, Brandon B. and Minniti, Maria Vittoria and Kelestemur, Tarik and Watkins, David and Herlant, Laura},
-  title     = {Theia: Distilling Diverse Vision Foundation Models for Robot Learning},
-  journal   = {arXiv},
-  year      = {2024},
+@inproceedings{
+    shang2024theia,
+    title={Theia: Distilling Diverse Vision Foundation Models for Robot Learning},
+    author={Jinghuan Shang and Karl Schmeckpeper and Brandon B. May and Maria Vittoria Minniti and Tarik Kelestemur and David Watkins and Laura Herlant},
+    booktitle={8th Annual Conference on Robot Learning},
+    year={2024},
+    url={https://openreview.net/forum?id=ylZHvlwUcI}
 }
 ```
