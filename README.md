@@ -8,7 +8,10 @@
 <sup>2</sup><a href="https://www3.cs.stonybrook.edu/~cvl/" target="_blank">Stony Brook University</a>
 </p>
 <p align="center">
-<a href="http://theia.theaiinstitute.com/" target="_blank">Project Page</a>, <a href="https://arxiv.org/abs/2407.20179" target="_blank">Paper (arXiv)</a>, <a href="https://huggingface.co/collections/theaiinstitute/theia-66a7a6ae80a707547c358cce" target="_blank">Models</a>, <a href="https://huggingface.co/spaces/theaiinstitute/theia" target="_blank">Demo</a>
+    <b>CoRL 2024</b>
+</p>
+<p align="center">
+<a href="http://theia.theaiinstitute.com/" target="_blank">Project Page</a>, <a href="https://openreview.net/forum?id=ylZHvlwUcI" target="_blank">Paper</a>, <a href="https://huggingface.co/collections/theaiinstitute/theia-66a7a6ae80a707547c358cce" target="_blank">Models</a>, <a href="https://huggingface.co/spaces/theaiinstitute/theia" target="_blank">Demo</a>
 </p>
 
 <p align="center">
