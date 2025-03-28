@@ -110,7 +110,7 @@ class RobotVisionFM(nn.Module):
         # [B, 1+H*W+N, C] if including both CLS and register tokens.
         # [B, 1+H*W, C] for standard model (N=0).
         # [B, H*W, C] for model without CLS.
-        return handle_feature_output(feature, num_discard_tokens=self.num_reg_tokens)
+        return handle_feature_output(feature, featrue_reduce_method=self.feature_reduce_method, num_discard_tokens=self.num_reg_tokens)
 
     def forward(self, x: torch.Tensor, target_model_names: Optional[list[str]] = None, **kwargs: Any) -> dict[str, torch.Tensor]:
         """Forward pass of Robot Vision Foundation Model.
