@@ -30,7 +30,7 @@ def check_existing_shard(path: str) -> bool:
         tarf = tarfile.open(path)
         for _ in tarf.getmembers():
             pass
-    except (ValueError, tarfile.ReadError, tarfile.CompressionError) as e:
+    except (FileNotFoundError, ValueError, tarfile.ReadError, tarfile.CompressionError) as e:
         print(e)
         return False
     return True
