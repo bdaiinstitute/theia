@@ -1,0 +1,8 @@
+target_model_names:
+ - "google/vit-huge-patch14-224-in21k"
+ - "facebook/dinov2-large"
+ - "openai/clip-vit-large-patch14"
+ - "facebook/sam-vit-huge"
+ - "LiheYoung/depth-anything-large-hf"
+ - "nvidia/C-RADIOv3-H"
+target_model_weights: null
