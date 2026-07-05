@@ -9,6 +9,8 @@ from torch.nn.functional import interpolate
 from theia.foundation_models import (
     get_clip_feature,
     get_clip_model,
+    get_cradio_feature,
+    get_cradio_model,
     get_depth_anything_feature,
     get_depth_anything_model,
     get_dinov2_feature,
@@ -35,6 +37,8 @@ def get_model(model_name: str, device: int | str | torch.device = "cpu") -> tupl
         model, processor = get_llava_vision_model(model_name, device=device)
     elif "depth-anything" in model_name:
         model, processor = get_depth_anything_model(model_name, device=device, selected_feature="head")
+    elif "radio" in model_name.lower():
+        model, processor = get_cradio_model(model_name, device=device)
     else:
         raise NotImplementedError(f"{model_name} is not implemented")
     return model, processor
@@ -91,6 +95,12 @@ def get_feature_outputs(
     elif "depth-anything" in model_name:
         feature = get_depth_anything_feature(model, processor, batch_images)
         features[model_name] = {"embedding": interpolate(feature, (64, 64)).detach().cpu().to(dtype).contiguous()}
+    elif "radio" in model_name.lower():
+        summary_token, visual_tokens = get_cradio_feature(model, processor, batch_images)
+        features[model_name] = {
+            "embedding": visual_tokens.detach().cpu().to(dtype).contiguous(),
+            "cls_token": summary_token.detach().cpu().to(dtype).contiguous(),
+        }
     else:
         raise NotImplementedError(f"model {model_name} is not supported")
 

@@ -11,6 +11,7 @@ MODELS = [
     "llava-hf/llava-1.5-7b-hf",
     "openai/clip-vit-large-patch14",
     "LiheYoung/depth-anything-large-hf",
+    "nvidia/C-RADIOv3-H",
 ]
 
 # handy model feature size constants
@@ -22,6 +23,8 @@ MODEL_FEATURE_SIZES = {
     "llava-hf/llava-1.5-7b-hf": (1024, 24, 24),
     "openai/clip-vit-large-patch14": (1024, 16, 16),
     "LiheYoung/depth-anything-large-hf": (32, 64, 64),
+    # C-RADIOv3-H (ViT-H/16): 224 input -> 14x14 spatial tokens, latent dim 1280.
+    "nvidia/C-RADIOv3-H": (1280, 14, 14),
 }
 
 
